@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = "http://localhost:9000/api"
+const baseUrl = "https://reon-back-api.onrender.com/api"
 
 const getAllToDo = (setToDo) => {
     axios
